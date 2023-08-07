@@ -23,7 +23,7 @@ class PauseMenu {
         ...lineupPizzas,
         {
           label: "Save",
-          description: "Save your progress",
+          description: "Salve seu progresso",
           handler: () => {
             this.progress.save();
             this.close();
@@ -31,7 +31,7 @@ class PauseMenu {
         },
         {
           label: "Close",
-          description: "Close the pause menu",
+          description: "Fechar o menu de pausa",
           handler: () => {
             this.close();
           }
@@ -59,7 +59,7 @@ class PauseMenu {
       ...unequipped,
       {
         label: "Move to front",
-        description: "Move this pizza to the front of the list",
+        description: "Mova esta pizza para o início da lista",
         handler: () => {
           playerState.moveToFront(pageKey);
           this.keyboardMenu.setOptions( this.getOptions("root") );
@@ -67,7 +67,7 @@ class PauseMenu {
       },
       {
         label: "Back",
-        description: "Back to root menu",
+        description: "Voltar ao menu",
         handler: () => {
           this.keyboardMenu.setOptions( this.getOptions("root") );
         }
