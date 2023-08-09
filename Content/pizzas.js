@@ -8,16 +8,16 @@ window.PizzaTypes = {
 
 window.Pizzas = {
   "s001": {
-    name: "Slice Samurai",
-    description: "Pizza desc here",
+    name: "Fatia Samurai",
+    description: "Pizza desc aqui",
     type: PizzaTypes.spicy,
     src: "/images/characters/pizzas/s001.png",
     icon: "/images/icons/spicy.png",
     actions: [ "saucyStatus", "clumsyStatus", "damage1" ],
   },
   "s002": {
-    name: "Bacon Brigade",
-    description: "A salty warrior who fears nothing",
+    name: "Brigada de bacon",
+    description: "Um guerreiro salgado que nada teme",
     type: PizzaTypes.spicy,
     src: "/images/characters/pizzas/s002.png",
     icon: "/images/icons/spicy.png",
