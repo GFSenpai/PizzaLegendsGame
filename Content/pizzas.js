@@ -1,9 +1,9 @@
 window.PizzaTypes = {
   normal: "normal",
-  spicy: "spicy",
-  veggie: "veggie",
-  fungi: "fungi",
-  chill: "chill",
+  spicy: "apimentado",
+  veggie: "vegetariano",
+  fungi: "fungos",
+  chill: "fria",
 }
 
 window.Pizzas = {
