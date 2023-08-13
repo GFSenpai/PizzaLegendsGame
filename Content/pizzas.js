@@ -49,7 +49,7 @@ window.Pizzas = {
   },
   "f002": {
     name: "Say Shitake",
-    description: "Pizza desc here",
+    description: "Pizza desc aqui",
     type: PizzaTypes.fungi,
     src: "/images/characters/pizzas/f001.png",
     icon: "/images/icons/fungi.png",
